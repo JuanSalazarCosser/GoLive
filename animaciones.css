@@ -1,0 +1,31 @@
+.animacion__abajo{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: animacion__abajo;
+}
+@keyframes animacion__abajo{
+    from{
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.banner__movimiento{
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-name: salir;
+}
+@keyframes salir{
+    from{
+        opacity: 0;
+        transform: translate3d(-100%,0,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
